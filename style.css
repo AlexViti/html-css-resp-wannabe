@@ -73,6 +73,10 @@ img {
 }
 
 @media screen and (max-width: 420px) {
+  html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
   * {
     margin: 0;
     padding: 0;
@@ -86,7 +90,7 @@ img {
   }
 
   .container {
-    padding: 1rem;
+    padding: .5rem;
   }
 
   .left, .central ,.right, .first, .second, .third {
